@@ -1,0 +1,11 @@
+solid.h face.h loop.h half_edge.h vertex.h实现了半边数据结构，Euler.cpp实现了五种欧拉操作与扫掠操作。
+
+场景中的ABCD字母都从相应的平面图形上以(0, 0, 1)的方向向量通过扫掠操作得到。
+
+使用opengl实现可视化，可以使用鼠标控制摄像机的角度，键盘上的wasd操控摄像机的位置，滚轮对当前画面进行放大或缩小。
+
+参考了https://learnopengl-cn.github.io/04%20Advanced%20OpenGL/02%20Stencil%20testing/与http://www.songho.ca/opengl/gl_tessellation.html中的模板测试方法实现了凹多边形和带孔多边形的显示。
+
+光照模型参考了https://learnopengl-cn.github.io/02%20Lighting/02%20Basic%20Lighting/中的冯氏光照模型。
+
+./x64/Debug/三维CAD建模大作业.exe可以打开可视化界面，另外我也录制了一个演示视频。
